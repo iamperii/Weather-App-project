@@ -42,6 +42,17 @@ async function getFetchData(endPoint, city) {
 	return response.json();
 }
 
+function getWeatherImgIcons(id) {
+	// console.log(id);
+
+	if (id <= 900) return `thunderstorm.svg`;
+	if (id <= 321) return `drizzle.svg`;
+	if (id <= 531) return `rain.svg`;
+	if (id <= 622) return `snow.svg`;
+	if (id <= 781) return `atmosphere.svg`;
+	if (id <= 800) return `clear.svg`;
+	else return `clouds.svg`;
+}
 async function updateWeatherInfo(city) {
 	const weatherData = await getFetchData('weather', city);
 
@@ -65,7 +76,9 @@ async function updateWeatherInfo(city) {
 	humudityValueTxt.textContent = humidity + '%';
 	windValueTxt.textContent = speed + ' M/s';
 
-	weatherSummaryImg.scroll = `assets/weather${getWeatherImgIcons(id)}`;
+	weatherSummaryImg.src = `/Weather-App-project/assets/${getWeatherImgIcons(
+		id
+	)}`;
 	showDisplaySection(weatherInfoSection);
 }
 
