@@ -60,7 +60,6 @@ function getWeatherImgIcons(id) {
 
 function getCurrentDate() {
 	const currentDate = new Date();
-	// console.log(currentDate);
 	const options = {
 		weekday: 'short',
 		day: '2-digit',
@@ -92,9 +91,7 @@ async function updateWeatherInfo(city) {
 	currentDateTxt.textContent = getCurrentDate();
 	weatherSummaryImg.src = `./assets/weather/${getWeatherImgIcons(id)}`;
 
-	// await updateForecastsInfo(city);
-
-	await updateForecastsInfo();
+	await updateForecastsInfo(city);
 	showDisplaySection(weatherInfoSection);
 }
 
@@ -104,6 +101,7 @@ async function updateForecastsInfo(city) {
 	const timeTaken = '12:00:00';
 	const todayDate = new Date().toISOString().split('T')[0];
 
+	forecastItemsContainer.innerHTML = '';
 	forecastsData.list.forEach((forecastWeather) => {
 		if (
 			forecastWeather.dt_txt.includes(timeTaken) &&
@@ -114,7 +112,33 @@ async function updateForecastsInfo(city) {
 	});
 }
 
-function updateForecastItems(weatherData) {}
+function updateForecastItems(weatherData) {
+	const {
+		dt_txt: date,
+		weather: [{ id }],
+		main: { temp },
+	} = weatherData;
+
+	const dateTaken = new Date(date);
+	const dateOption = {
+		day: '2-digit',
+		month: 'short',
+	};
+	const dateResult = dateTaken.toLocaleDateString('en-US', dateOption);
+
+	const forecastItem = `
+	        <div class="forecast-item">
+						<h5 class="forecast-item-date regular-txt">${dateResult}</h5>
+						<img
+							src="assets/weather/${getWeatherImgIcons(id)}"
+							alt=""
+							class="forecast-item-img"
+						/>
+						<h5 class="forecast-item-temp">${Math.round(temp)} °C</h5>
+					</div>
+					`;
+	forecastItemsContainer.insertAdjacentHTML('beforeend', forecastItem);
+}
 
 function showDisplaySection(section) {
 	[weatherInfoSection, searchCitySection, notFoundSection].forEach(
