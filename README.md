@@ -2,7 +2,7 @@
 
 Wheather App written by JavaScript , and using API &amp; Fetch, as well as the structure of promise, fetch, and sync-await.
 
-# Features
+# Features 
 Overview of Weather App
 <ol>
 <li>
@@ -19,7 +19,9 @@ Overview of Weather App
   </li>
 </ol>
 
-# Technologies Used
+# Technologies Used 
+![WebDeveloperMycrxnGIF](https://github.com/user-attachments/assets/f21c7c51-5508-45cd-9b46-bc473e7ae7b4)
+
 <ol>
   <li>
 HTML5, CSS3, and JavaScript: The core technologies used for the front-end development of the app.
