@@ -20,16 +20,22 @@ Overview of Weather App
 </ol>
 
 # Technologies Used
+<ol>
+  <li>
 HTML5, CSS3, and JavaScript: The core technologies used for the front-end development of the app.
+  </li>
+  <li>
 Geolocation API: Retrieves the user's latitude and longitude coordinates to provide accurate weather data.
+  </li>
+  <li>
 Weather API: Retrieves weather data based on the user's location or city name.
+  </li>
+</ol>
 
-img
+# img
 
-#Live Demo :
+# Live Demo :
 
 ### 📃 License
 
 This project is licensed under the [MIT License](./LICENSE).
-
-readme.so
