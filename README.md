@@ -63,7 +63,7 @@ Weather API: Retrieves weather data based on the user's location or city name.
 
 # Author
 
-This project is created by [Memmedova Peri](<[url](https://github.com/iamperii)>)
+This project is created by [Memmedova Peri.](https://github.com/iamperii/Weather-App-project)
 
 # 📃 License
 
