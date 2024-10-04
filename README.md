@@ -31,6 +31,7 @@ Geolocation API: Retrieves the user's latitude and longitude coordinates to prov
   </li>
   <li>
 Weather API: Retrieves weather data based on the user's location or city name.
+    API used: https://openweathermap.org/
   </li>
 </ol>
 
