@@ -69,6 +69,6 @@ To access this website, [click the link here.](url)
 <br>
 This project is created by [Memmedova Peri]([url](https://github.com/iamperii))
 
-#📃 License
+# 📃 License
 
 This project is licensed under the [MIT License](./LICENSE).
