@@ -52,7 +52,6 @@ Weather API: Retrieves weather data based on the user's location or city name.
 		src="https://github.com/user-attachments/assets/de75ea57-c121-4bc8-929f-6e418f19fefb"
 		width="45%"
 	/>
-
 	<img
 		src="https://github.com/user-attachments/assets/f10b8b01-8473-4648-808b-a2c526dab1b0"
 		width="45%"
