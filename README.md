@@ -36,11 +36,19 @@ Weather API: Retrieves weather data based on the user's location or city name.
 </ol>
 
 # Overview of Weather app
-<div style="display: flex; ">
 ![image](https://github.com/user-attachments/assets/d47b7351-7aef-4832-b52e-9f7b52e3683f)
 ![image](https://github.com/user-attachments/assets/2ddeca5d-59e4-4b10-b043-2f74fb932956)
 ![image](https://github.com/user-attachments/assets/de75ea57-c121-4bc8-929f-6e418f19fefb)
-		</div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d47b7351-7aef-4832-b52e-9f7b52e3683f" width="45%" />
+  <img src="https://github.com/user-attachments/assets/2ddeca5d-59e4-4b10-b043-2f74fb932956" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de75ea57-c121-4bc8-929f-6e418f19fefb" width="45%" />
+  <img src="https://github.com/user-attachments/assets/another-image-url" width="45%" />
+</p>
+
 
 # Live Demo :
 video
