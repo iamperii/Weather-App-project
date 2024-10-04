@@ -3,7 +3,6 @@
 Wheather App written by JavaScript , and using API &amp; Fetch, as well as the structure of promise, fetch, and sync-await.
 
 # Features 
-Overview of Weather App
 <ol>
 <li>
   Location-based Weather: Upon loading the website, the app will request your location to provide weather information specific to your area.
@@ -36,11 +35,14 @@ Weather API: Retrieves weather data based on the user's location or city name.
   </li>
 </ol>
 
-# img
+# Overview of Weather app
+
+![image](https://github.com/user-attachments/assets/41c6a460-5cd6-40b7-96eb-f0d62528f766)
 
 # Live Demo :
 
-### Author
+# Author
+To access this website, [click the link here.](url)
 This project is created by [Memmedova Peri]([url](https://github.com/iamperii))
 ### 📃 License
 
