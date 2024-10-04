@@ -36,14 +36,18 @@ Weather API: Retrieves weather data based on the user's location or city name.
 </ol>
 
 # Overview of Weather app
-
-![image](https://github.com/user-attachments/assets/41c6a460-5cd6-40b7-96eb-f0d62528f766)
+![image](https://github.com/user-attachments/assets/d47b7351-7aef-4832-b52e-9f7b52e3683f)
+![image](https://github.com/user-attachments/assets/2ddeca5d-59e4-4b10-b043-2f74fb932956)
+![image](https://github.com/user-attachments/assets/de75ea57-c121-4bc8-929f-6e418f19fefb)
+![image](https://github.com/user-attachments/assets/261029ec-f30b-4250-a207-c6310f0738ea)
 
 # Live Demo :
+video
 
 # Author
 To access this website, [click the link here.](url)
 This project is created by [Memmedova Peri]([url](https://github.com/iamperii))
+
 ### 📃 License
 
 This project is licensed under the [MIT License](./LICENSE).
