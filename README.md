@@ -31,6 +31,7 @@ Geolocation API: Retrieves the user's latitude and longitude coordinates to prov
   </li>
   <li>
 Weather API: Retrieves weather data based on the user's location or city name.
+    <br>
     API used: https://openweathermap.org/
   </li>
 </ol>
@@ -39,6 +40,8 @@ Weather API: Retrieves weather data based on the user's location or city name.
 
 # Live Demo :
 
+### Author
+This project is created by [Memmedova Peri]([url](https://github.com/iamperii))
 ### 📃 License
 
 This project is licensed under the [MIT License](./LICENSE).
